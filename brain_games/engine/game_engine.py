@@ -17,7 +17,6 @@ def game(mod):
             print('Correct!')
             count -= 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct "
-                  f"answer was '{answer}'.\nLet's try again, {user_name}!")
-            count = 3
+            return print(f"'{user_answer}' is wrong answer ;(. Correct an"
+                         f"swer was '{answer}'.\nLet's try again, {user_name}!")
     print(f'Congratulations, {user_name}!')
