@@ -22,6 +22,6 @@ def question_answer():
     else:
         answer = 'no'
 
-    question = str(random_number)
+    question = random_number
 
     return [question, answer]
