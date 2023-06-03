@@ -4,7 +4,7 @@ import prompt
 def game(mod):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
-    print(f'Hello, {user_name}!\n{mod.task}')
+    print(f'Hello, {user_name}!\n{mod.TASK}')
 
     count = 3
 
