@@ -10,8 +10,10 @@ Games:
 # How to install the package on PC:
 The user must apply commands in the root directory of the project. 
 1. Make sure the installed version of Python is at least 3.8.1
-2. Use command 'make package-install' to intall package
-3. For update package the user can use command 'make package-reinstall' 
+2. Make sure that you have installed the latest version of 'poetry' and 'pip'
+3. Use command 'make build' to build the package
+4. Use command 'make package-install' to install package
+5. For update package the user can use command 'make package-reinstall' 
 
 # How to start a game:
 1. Use 'brain-calc' command to start first game from description
@@ -28,7 +30,7 @@ The user must apply commands in the root directory of the project.
 <a href="https://codeclimate.com/github/Anxieye/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c1ec3d54a58b84d246f6/maintainability" /></a>
 
 # Installing games and running 'brain-even'
-<a href="https://asciinema.org/a/Jv20OLq2cmSRaf8cXbMvjg1MR" target="_blank"><img src="https://asciinema.org/a/Jv20OLq2cmSRaf8cXbMvjg1MR.svg" /></a>
+<a href="https://asciinema.org/a/NBuuQxUfqyyJ1ESxLqxChYTXt" target="_blank"><img src="https://asciinema.org/a/NBuuQxUfqyyJ1ESxLqxChYTXt.svg" /></a>
 
 # asciinema brain-calc
 <a href="https://asciinema.org/a/78jlRCfdx8z7OOpeUYrIM8dK4" target="_blank"><img src="https://asciinema.org/a/78jlRCfdx8z7OOpeUYrIM8dK4.svg" /></a>
