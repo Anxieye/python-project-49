@@ -6,6 +6,7 @@ TASK = 'What is the result of the expression?'
 
 def find_operator(a, b, operator):
     value = None
+
     if operator == '+':
         value = a + b
     elif operator == '-':
