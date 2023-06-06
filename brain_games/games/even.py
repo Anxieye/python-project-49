@@ -4,7 +4,7 @@ from random import randint
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def question_answer():
+def get_question_answer():
     random_number = randint(0, 100)
     question = random_number
     answer = ''
