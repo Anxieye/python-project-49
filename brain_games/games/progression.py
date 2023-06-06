@@ -9,6 +9,7 @@ def get_question_answer():
     random_length = randint(7, 15)
     random_step = randint(2, 10)
     sequence = []
+
     while random_length:
         sequence.append(random_start)
         random_start += random_step
